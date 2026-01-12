@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir in /Users/hiribarne/dev/sebastianspa_website/gallery/*/)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
