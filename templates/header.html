@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{description}}">
+  <meta name="keywords" content="{{keywords}}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{og_title}}">
+  <meta property="og:description" content="{{og_description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sebastianspa.com">
+
+  <title>{{title}}</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">
+          Sebastian Spa Retreat
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link {{active_home}}">Home</a></li>
+          <li><a href="property.html" class="nav-link {{active_property}}">The Property</a></li>
+          <li><a href="gallery.html" class="nav-link {{active_gallery}}">Gallery</a></li>
+          <li><a href="location.html" class="nav-link {{active_location}}">Location</a></li>
+          <li><a href="local-guide.html" class="nav-link {{active_guide}}">Local Guide</a></li>
+          <li><a href="guest-info.html" class="nav-link {{active_guest}}">Guest Info</a></li>
+          <li><a href="https://airbnb.com/h/sebastianspa" target="_blank" class="btn btn-primary btn-sm">Book Now</a></li>
+        </ul>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
